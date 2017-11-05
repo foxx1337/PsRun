@@ -23,7 +23,7 @@ namespace PsRun
             if (eventArgs.Args.Length != 1)
             {
                 MessageBox.Show(
-                    string.Format("Usage:\n{0} script.ps1\n\nRuns the script in a headless PowerShell", APP_NAME),
+                    $"Usage:\n{APP_NAME} script.ps1\n\nRuns the PowerShell script file in a headless host",
                     APP_NAME,
                     MessageBoxButton.OK,
                     MessageBoxImage.Information);
